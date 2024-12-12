@@ -327,7 +327,7 @@ def youtube_downloader(video_URL: str, resolution, flag=1):
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass bot token.
-    application = Application.builder().token("YOUR_TOKEN").build()
+    application = Application.builder().token("7080362550:AAGSyrMy0fjolsP7tD7yQjIuWc7jYeTD0L4").build()
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
         states={
